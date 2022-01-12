@@ -1,0 +1,27 @@
+{
+  "name": "rescript-study",
+  "version": "1.0.0",
+  "description": "rescript study",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "rescript build -w"
+  },
+  "dependencies": {
+    "rescript": "^9.1.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidYang2149/rescript-study.git"
+  },
+  "keywords": [
+    "rescript",
+    "study"
+  ],
+  "author": "davidyang2149",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DavidYang2149/rescript-study/issues"
+  },
+  "homepage": "https://github.com/DavidYang2149/rescript-study#readme"
+}
