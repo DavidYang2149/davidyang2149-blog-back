@@ -32,3 +32,19 @@ Js.log(decimal)
 
 let remainder = mod(10, 3)
 Js.log(remainder)
+
+// 객체/레코드(Object/Record)
+type point = {x: int, mutable y: int}
+let point = {x: 3, y: 4}
+Js.log(point)
+
+// 배열(Array)
+let arr = [1, 2, 3]
+Js.log(arr)
+
+// Null
+/* null, undefined가 존재하지 않음 */
+
+// 함수(Function)
+// 모두 Arrow Function만 사용
+let func = (x: int) => x + 1
