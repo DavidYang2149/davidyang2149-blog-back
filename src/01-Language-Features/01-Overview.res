@@ -15,3 +15,20 @@ let footer = "world"
 
 let message = header ++ blank ++ footer
 Js.log(message)
+
+// 불리언(Boolean)
+let isDone = true
+let isNotDone = false
+
+let resultFailed = isDone === isNotDone
+Js.log(resultFailed)
+
+// 숫자(Number)
+let int = 3 + 4
+Js.log(int)
+
+let decimal = 10.0 +. 4.5
+Js.log(decimal)
+
+let remainder = mod(10, 3)
+Js.log(remainder)
