@@ -9,3 +9,11 @@
 
 ## Node.js
 node_modules
+
+## bsc
+/lib/
+.bsb.lock
+.merlin
+**/**.cmi
+**/**.cmj
+**/**.cmt
