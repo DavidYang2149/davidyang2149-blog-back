@@ -8,6 +8,7 @@
     "start": "rescript build -w"
   },
   "dependencies": {
+    "@rescript/react": "^0.10.3",
     "rescript": "^9.1.4"
   },
   "repository": {
